@@ -11,4 +11,8 @@ export class Exercice1Component implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  miseAjourCompteur(event: { value: number }) {
+    this.result = event.value;
+  }
 }
